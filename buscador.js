@@ -4,8 +4,7 @@
 
 	The following code is a derivative work of the code from frontend_search_engine (https://github.com/Diego-Emiliano/frontend_search_engine),
 	which is licensed under the MIT License.
-	This code is is part of diego-blog (https://github.com/Diego-Emiliano/diego-blog),
-	which is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/diego-blog/blob/main/LICENSE.txt)
+	This code is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
      
 **/
 
