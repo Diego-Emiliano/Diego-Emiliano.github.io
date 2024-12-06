@@ -1,0 +1,86 @@
+/**
+
+	Copyright (c) 2024 Diego-Emiliano
+
+	This file is part of diego-blog (https://github.com/Diego-Emiliano/diego-blog),
+	which is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/diego-blog/blob/main/LICENSE.txt)
+     
+**/
+       * {
+			overflow-wrap: break-word;
+		}
+        body {
+            background-color: #f2f2f2;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+        }
+        footer {
+			background: #E5E4E2D9;
+			padding: 1vw;
+        }
+        nav {
+			background: white;
+			text-align: left;
+			position: sticky;
+			top: 0vh;
+        }
+		nav img {
+			vertical-align: middle;
+			margin: 1vw;
+		}
+        .content {
+			display: inline-block;
+			margin: 1.5vw;
+        }
+        .result {
+			position: absolute;
+			background: #E5E4E2E5;
+        }
+        .result-item {
+			display: block;
+			margin: 1vw;
+        }
+        nav h1 {
+			display: inline-block;
+			margin: 1.5vw;
+			margin-left: 0;
+		}
+		.icono {
+			height: 6vw;
+			width: 6vw;
+		}
+		.content2 {
+			display: inline-block;
+		}
+		.submenu {
+			display: none;
+			background: #E5E4E2E5;
+		}
+		.submenu li {
+			margin: 1vw;
+		}
+		nav div:hover .submenu,
+		nav div:focus-within .submenu {
+			position: absolute;
+			display: block;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		main {
+			width: 75vw;
+			margin-left: 12.5vw;
+			margin-right: 12.5vw;
+			margin-top: 2vw;
+			margin-bottom: 2vw;
+			padding: 1vw;
+			background: #E5E4E2E5;
+			text-align: left;
+		}
+
+/* Quitar margen, borde, padding y otras cosas que vienen
+ por defecto */
+
+body { margin: 0; }
+input { padding: 0; }
+table { border-collapse: collapse; }
