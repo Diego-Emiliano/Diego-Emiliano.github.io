@@ -7,4 +7,4 @@
 
 	This project uses code from frontend_search_engine (https://github.com/Diego-Emiliano/frontend_search_engine)
 	
-	Code released under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/diego-blog/blob/main/LICENSE.txt)
+	Code released under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
