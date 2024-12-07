@@ -50,6 +50,7 @@ function search() {
         const link = document.createElement("a");
         link.href = item.url; // URL del enlace
         link.textContent = `${item.nombre} ${item.fecha}`; // Texto del enlace
+        link.target = "_self"; // Abrir en nueva pestaña
 
         div.appendChild(link); // Añadir el enlace al div
         resultContainer.appendChild(div); // Añadir el div al contenedor de resultados
