@@ -8,6 +8,12 @@
      
 **/
 
+const mensaje = document.getElementById("searchInput");
+
+mensaje.addEventListener("click", function (ev) {
+    ev.preventDefault(); // Evitar el envío del formulario
+});
+
 const data = [
     { fecha: "1", nombre: "Estadística basica", url: "/" },
     { fecha: "2", nombre: "Fundamentos de la Administración", url: "/" },
