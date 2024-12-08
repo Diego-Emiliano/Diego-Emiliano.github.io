@@ -8,12 +8,6 @@
      
 **/
 
-const mensaje = document.getElementById("searchInput");
-
-mensaje.addEventListener("click", function (ev) {
-    ev.preventDefault(); // Evitar el envío del formulario
-});
-
 const data = [
     { fecha: "1", nombre: "Estadística basica", url: "/" },
     { fecha: "2", nombre: "Fundamentos de la Administración", url: "/" },
@@ -25,10 +19,17 @@ const data = [
     { fecha: "6", nombre: "Contexto socioeconómico de México", url: "/" }
 ];
 
+const input = document.getElementById("searchInput");
+const resultContainer = document.getElementById("resultContainer");
+
+input.addEventListener("keypress", function (ev) {
+	if (event.key === "Enter") {
+		ev.preventDefault(); // Evitar el envío del formulario
+	}
+});
+
 function search() {
-    const input = document.getElementById("searchInput");
     const filter = input.value.toUpperCase();
-    const resultContainer = document.getElementById("resultContainer");
 
     // Limpiar resultados previos
     resultContainer.innerHTML = "";
