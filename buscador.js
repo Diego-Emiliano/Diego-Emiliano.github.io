@@ -20,12 +20,17 @@ const data = [
 ];
 
 const input = document.getElementById("searchInput");
+const limpiador = document.getElementById("limpiador");
 const resultContainer = document.getElementById("resultContainer");
 
 input.addEventListener("keypress", function (ev) {
 	if (event.key === "Enter") {
 		ev.preventDefault(); // Evitar el envío del formulario
 	}
+});
+
+limpiador.addEventListener("click", function (ev) {
+    ev.preventDefault(); // Evitar el envío del formulario
 });
 
 function search() {
@@ -67,4 +72,9 @@ function search() {
     if (resultsToShow.length === 0) {
         resultContainer.innerHTML = "<div class='result-item'>No se encontraron resultados.</div>";
     }
+}
+
+function limpiar() {
+	resultContainer.innerHTML = "";
+	input.value = "";
 }
