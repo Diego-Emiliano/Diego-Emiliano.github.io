@@ -7,7 +7,7 @@
 	This code is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
      
 **/
-
+/**
 const data = [
     { fecha: "1", nombre: "Estadística basica", url: "/" },
     { fecha: "2", nombre: "Fundamentos de la Administración", url: "/" },
@@ -18,6 +18,8 @@ const data = [
     { fecha: "6", nombre: "Creatividad y resolución de problemas", url: "/" },
     { fecha: "6", nombre: "Contexto socioeconómico de México", url: "/" }
 ];
+**/
+import data from "https://diego-emiliano.github.io/data.js"
 
 const input = document.getElementById("searchInput");
 const limpiador = document.getElementById("limpiador");
