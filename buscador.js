@@ -19,7 +19,7 @@ const data = [
     { fecha: "6", nombre: "Contexto socioeconómico de México", url: "/" }
 ];
 **/
-import data from "https://diego-emiliano.github.io/data.js"
+import data from "./data.js"
 
 const input = document.getElementById("searchInput");
 const limpiador = document.getElementById("limpiador");
