@@ -8,4 +8,3 @@ const data = [
     { fecha: "6", nombre: "Creatividad y resolución de problemas", url: "/" },
     { fecha: "6", nombre: "Contexto socioeconómico de México", url: "/" }
 ];
-export default data;
