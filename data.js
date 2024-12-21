@@ -1,10 +1,3 @@
 const data = [
-    { fecha: "1", nombre: "Estadística basica", url: "/" },
-    { fecha: "2", nombre: "Fundamentos de la Administración", url: "/" },
-    { fecha: "3", nombre: "Fundamentos de la Investigación", url: "/" },
-    { fecha: "4", nombre: "Organisación y gestión del tiempo", url: "/" },
-    { fecha: "5", nombre: "Trabajo en equipo", url: "/" },
-    { fecha: "6", nombre: "Toma de decisiones y comunicación asertiva", url: "/" },
-    { fecha: "6", nombre: "Creatividad y resolución de problemas", url: "/" },
-    { fecha: "6", nombre: "Contexto socioeconómico de México", url: "/" }
+    { fecha: "11-11-2024", nombre: "12345678901234567890", descripcion: "123456789012345678901234567890123456789012345678901234567890", categoria: "CSS", url: "/12345678901234567890" },
 ];
