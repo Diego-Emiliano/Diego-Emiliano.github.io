@@ -12,16 +12,6 @@ const input = document.getElementById("searchInput");
 const limpiador = document.getElementById("limpiador");
 const resultContainer = document.getElementById("resultContainer");
 
-input.addEventListener("keypress", function (ev) {
-	if (event.key === "Enter") {
-		ev.preventDefault(); // Evitar el envío del formulario
-	}
-});
-
-limpiador.addEventListener("click", function (ev) {
-    ev.preventDefault(); // Evitar el envío del formulario
-});
-
 function search() {
     const filter = input.value.toUpperCase();
 
