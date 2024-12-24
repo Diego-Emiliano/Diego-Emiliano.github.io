@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Filtro</title>
+		<meta charset="UTF-8">
+		<link rel="icon" href="/base/icono.webp" />
+		<link rel="stylesheet" href="/base/base.css">
+	</head>
+	<body>
+		<nav>
+			<a href="/" ><img class="icono" src="/base/icono.webp" alt="Icono del blog"><h1>Inicio</h1></a>
+		</nav>
+		<main>
+			<search>
+				<label for="categorias" >Categoria:</label>
+				<select id="categorias" >
+					<option value="" >Todos</option>
+					<option value="HTML" >HTML</option>
+					<option value="CSS" >CSS</option>				
+					<option value="Scripts" >Scripts</option>
+					<option value="Matematicas" >Matematicas</option>
+				</select>
+				<label for="fecha">Año:</label>
+				<select id="fecha">
+					<option value="" >Todos</option>
+					<option value="1" >1</option>
+					<option value="2" >2</option>
+					<option value="3" >3</option>
+					<option value="4" >4</option>
+				</select>
+				<label for="buscador_filtro">Buscador:</label>
+				<input type="text" id="buscador_filtro" placeholder="Escribe para buscar" >
+				<button id="filtrar" onclick="filtrar()">Filtrar</button>
+				<button id="anterior" disabled onclick="anterior()" >Anterior</button>
+				<button id="siguiente" disabled onclick="siguiente()" >Siguiente</button>
+				<label for="paginas">Paginas:</label>
+				<select id="paginas" disabled onchange="select()"></select>
+				<div id="contenedor"></div>
+				<script src="/base/data.js"></script>
+				<script src="filtro.js"></script>
+			</search>
+		</main>
+		<footer>
+			<p>Copyright © 2024 Diego-Emiliano</p>
+			<p><a href="https://github.com/Diego-Emiliano/Diego-Emiliano.github.io" >Code</a> is licensed under the <a href="https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt" >MIT license</a></p>
+			<p xmlns:cc="http://creativecommons.org/ns#" >The content on this website, of which <span property="cc:attributionName">Diego-Emiliano</span> is the author, is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+		</footer>
+	</body>
+</html>
