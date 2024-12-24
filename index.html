@@ -10,13 +10,14 @@
 	<nav>
 		<a href="/" ><img class="icono" src="/base/icono.webp" alt="Icono del blog"><h1>Inicio</h1></a>
 		<search class="content" >
+			<label for="searchInput">Buscador:</label>
 			<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
 			<button id="limpiador" onclick="limpiar()" aria-label="Borrar búsqueda" >Limpiar</button>
 			<div class="result" id="resultContainer"></div>
 			<script src="/base/data.js"></script>
 			<script src="/base/buscador.js"></script>
 		</search>
-		<a href="categorias">Categorias</a>
+		<a href="filtro">Filtro</a>
 	</nav>
 	<main>
 		<p>
