@@ -1,3 +1,3 @@
 const data = [
-    { fecha: "11-11-2024", nombre: "12345678901234567890", descripcion: "123456789012345678901234567890123456789012345678901234567890", categoria: "CSS", url: "/12345678901234567890" },
+    { fecha: "07-12-2024", nombre: "Matemáticas basicas", descripcion: "Da un repaso por las raíces cuadradas, exponentes, orden de resolución y ejercicios de ello", categoria: "Matemáticas", url: "/matematicas-basicas" },
 ];
