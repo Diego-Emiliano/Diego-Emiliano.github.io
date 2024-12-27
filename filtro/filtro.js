@@ -73,7 +73,7 @@ function filtrar() {
 	resultado.forEach(item => {
 
 		contenedor.insertAdjacentHTML("beforeend",
-		`<div class="result-item" ><a href="/a" target="_self">${item.nombre} ${item.fecha}</a><p>${item.descripcion}</p></div>`)
+		`<div class="result-item" ><a href="${item.url}" target="_self">${item.nombre} ${item.fecha}</a><p>${item.descripcion}</p></div>`)
 
 	});
 
