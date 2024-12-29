@@ -2,8 +2,9 @@
 
 	Copyright (c) 2024 Diego-Emiliano
 
-	This file is part of (https://github.com/Diego-Emiliano/Diego-Emiliano.github.io),
-	which is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
+	The following code is a derivative work of the code from frontend_search_engine (https://github.com/Diego-Emiliano/frontend_search_engine),
+	which is licensed under the MIT License.
+	This code is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
      
 **/
 
