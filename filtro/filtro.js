@@ -1,3 +1,12 @@
+/**
+
+	Copyright (c) 2024 Diego-Emiliano
+
+	This file is part of (https://github.com/Diego-Emiliano/Diego-Emiliano.github.io),
+	which is licensed under the MIT License. (see LICENSE.txt or https://github.com/Diego-Emiliano/Diego-Emiliano.github.io/blob/main/LICENSE.txt)
+     
+**/
+
 const contenedor = document.getElementById("contenedor");
 const buscador_filtro = document.getElementById("buscador_filtro");
 const categorias = document.getElementById("categorias");
