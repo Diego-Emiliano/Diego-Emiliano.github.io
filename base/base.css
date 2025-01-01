@@ -18,16 +18,12 @@
 			background: #E5E4E2D9;
 			padding: 1vw;
         }
-        nav {
+        header {
 			background: white;
 			text-align: left;
 			position: sticky;
 			top: 0vh;
         }
-	nav img {
-		vertical-align: middle;
-		margin: 1vw;
-	}
         search {
 			display: inline-block;
 			margin: 1.5vw;
@@ -48,6 +44,8 @@
 	.icono {
 		height: 6vw;
 		width: 6vw;
+		vertical-align: middle;
+		margin: 1vw;
 	}
 	main {
 		width: 75vw;
