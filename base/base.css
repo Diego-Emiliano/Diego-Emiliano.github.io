@@ -24,6 +24,9 @@
 			position: sticky;
 			top: 0vh;
         }
+	nav {
+		display: inline-block;
+	    }
         search {
 			display: inline-block;
 			margin: 1.5vw;
@@ -36,11 +39,6 @@
 			display: block;
 			margin: 1vw;
         }
-        nav h1 {
-			display: inline-block;
-			margin: 1.5vw;
-			margin-left: 0;
-	}
 	.icono {
 		height: 6vw;
 		width: 6vw;
