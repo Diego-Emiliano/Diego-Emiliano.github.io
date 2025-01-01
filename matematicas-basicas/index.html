@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="/base/base.css">
 </head>
 <body>
-	<nav>
-		<a href="/" ><img class="icono" src="/base/icono.webp" alt="Icono del blog"><h1>Inicio</h1></a>
-		<search>
-			<label for="searchInput">Buscador:</label>
-			<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
-			<div class="result" id="resultContainer"></div>
-			<script src="/base/data.js"></script>
-			<script src="/base/buscador.js"></script>
-		</search>
-		<a href="/filtro">Filtro</a>
-	</nav>
+	<header>
+	<img class="icono" src="/base/icono.webp" alt="Icono del blog">
+		<nav>
+			<a href="/" >Inicio</a>
+			<search>
+				<label for="searchInput">Buscador:</label>
+				<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
+				<div class="result" id="resultContainer"></div>
+				<script src="/base/data.js"></script>
+				<script src="/base/buscador.js"></script>
+			</search>
+			<a href="/filtro">Filtro</a>
+		</nav>
+	</header>
 	<main>
 		<h2>Matemáticas Básicas</h2>
 		<p>
