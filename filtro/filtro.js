@@ -12,6 +12,7 @@ const contenedor = document.getElementById("contenedor");
 const buscador_filtro = document.getElementById("buscador_filtro");
 const categorias = document.getElementById("categorias");
 const fecha = document.getElementById("fecha");
+const ordenar = document.getElementById("ordenar");
 
 const boton_anterior = document.getElementById("anterior");
 const boton_siguiente = document.getElementById("siguiente");
@@ -65,6 +66,30 @@ function filtrar() {
 		item.categoria.toUpperCase().includes(categoriasMayuscula) &&
 		item.fecha.toUpperCase().includes(fechaMayuscula)
 	});
+
+// Select Orden
+
+	if(ordenar.options[ordenar.selectedIndex].value == "Orden alfabetico")
+	{
+		filtro.sort(function (a, b) {
+		return a.nombre.localeCompare(b.nombre, undefined, { numeric: true });
+			});
+		}
+
+/*		
+	if(ordenar.options[ordenar.selectedIndex].value == "Mas viejo")
+	{
+		filtro.sort(function comparar(a, b) {
+		return a.orden - b.orden;
+		});
+		}
+*/
+	if(ordenar.options[ordenar.selectedIndex].value == "Mas reciente")
+	{
+		filtro.sort(function comparar(a, b) {
+		return b.orden - a.orden;
+		});
+		}
 
     // Botones
     
