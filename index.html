@@ -10,7 +10,10 @@
 	<header>
 		<img class="icono" src="/base/icono.webp" alt="Icono del blog">
 		<nav>
-			<a href="/" >Inicio</a>
+			<ul>
+				<li><a href="/" >Inicio</a></li>
+				<li><a href="filtro">Filtro</a></li>
+			</ul>
 			<search>
 				<label for="searchInput">Buscador:</label>
 				<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
@@ -19,7 +22,6 @@
 				<script src="/base/data.js"></script>
 				<script src="/base/buscador.js"></script>
 			</search>
-			<a href="filtro">Filtro</a>
 		</nav>
 	</header>
 	<main>
