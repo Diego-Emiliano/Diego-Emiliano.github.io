@@ -27,6 +27,16 @@
 	nav {
 		display: inline-block;
 	    }
+        nav ul {
+	        display: inline;
+	        padding: 0;
+	        margin: 0vw;
+        }
+        nav li {
+	        display: inline;
+	        padding: 0;
+	        margin: 0.7vw;
+        }
         search {
 			display: inline-block;
 			margin: 1.5vw;
