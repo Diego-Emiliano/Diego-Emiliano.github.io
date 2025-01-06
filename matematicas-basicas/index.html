@@ -10,17 +10,19 @@
 	<header>
 	<img class="icono" src="/base/icono.webp" alt="Icono del blog">
 		<nav>
-			<a href="/" >Inicio</a>
-			<search>
-				<label for="searchInput">Buscador:</label>
-				<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
-				<button id="limpiador" onclick="limpiar()" aria-label="Borrar búsqueda" >Limpiar</button>
-				<div class="result" id="resultContainer"></div>
-				<script src="/base/data.js"></script>
-				<script src="/base/buscador.js"></script>
-			</search>
-			<a href="/filtro">Filtro</a>
+			<ul>
+				<li><a href="/" >Inicio</a></li>
+				<li><a href="filtro">Filtro</a></li>
+			</ul>
 		</nav>
+		<search>
+			<label for="searchInput">Buscador:</label>
+			<input type="text" autocomplete="off" id="searchInput" placeholder="Escribe para buscar..." onkeyup="search()">
+			<button id="limpiador" onclick="limpiar()" aria-label="Borrar búsqueda" >Limpiar</button>
+			<div class="result" id="resultContainer"></div>
+			<script src="/base/data.js"></script>
+			<script src="/base/buscador.js"></script>
+		</search>
 	</header>
 	<main>
 		<h1>Matemáticas Básicas</h1>
